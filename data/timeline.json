@@ -1,0 +1,71 @@
+{
+  "couple": {
+    "name1": "星星",
+    "name2": "微微",
+    "togetherDate": "2026-04"
+  },
+  "events": [
+    {
+      "id": 1,
+      "date": "2023-02-14",
+      "title": "第一次相遇",
+      "description": "在咖啡厅偶遇，一见钟情 💕",
+      "icon": "heart"
+    },
+    {
+      "id": 2,
+      "date": "2023-03-14",
+      "title": "正式在一起",
+      "description": "白色情人节，我们正式成为恋人 💑",
+      "icon": "heart"
+    },
+    {
+      "id": 3,
+      "date": "2023-05-20",
+      "title": "第一个520",
+      "description": "一起度过了第一个520纪念日 🎁",
+      "icon": "gift"
+    },
+    {
+      "id": 4,
+      "date": "2023-07-15",
+      "title": "第一次旅行",
+      "description": "一起去了海边，留下了美好的回忆 🏖️",
+      "icon": "plane"
+    },
+    {
+      "id": 5,
+      "date": "2023-12-25",
+      "title": "第一个圣诞节",
+      "description": "交换礼物，一起看雪 🎄",
+      "icon": "star"
+    },
+    {
+      "id": 6,
+      "date": "2024-02-14",
+      "title": "一周年纪念日",
+      "description": "在一起一年啦！期待更多美好时光 💕",
+      "icon": "cake"
+    }
+  ],
+  "anniversaries": [
+    {
+      "id": 1,
+      "name": "恋爱纪念日",
+      "date": "03-14",
+      "type": "yearly"
+    },
+    {
+      "id": 2,
+      "name": "520告白日",
+      "date": "05-20",
+      "type": "yearly"
+    },
+    {
+      "id": 3,
+      "name": "七夕节",
+      "date": "农历七月初七",
+      "type": "lunar"
+    }
+  ]
+}
