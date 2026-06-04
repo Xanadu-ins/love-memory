@@ -1,64 +1,63 @@
-  <!doctype html>
-  <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text
-  y='.9em' font-size='90'>💕</text></svg>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="我们的爱情纪念网站，记录美好时光" />
-    <meta name="theme-color" content="#ec4899" />
-    <title>我们的爱情记忆</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%);
-        font-family: 'Noto Serif SC', serif;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-      .container {
-        text-align: center;
-        background: rgba(255, 255, 255, 0.9);
-        padding: 40px;
-        border-radius: 20px;
-        box-shadow: 0 10px 30px rgba(236, 72, 153, 0.2);
-      }
-      h1 {
-        font-size: 3em;
-        color: #ec4899;
-        margin-bottom: 20px;
-        font-family: 'Ma Shan Zheng', cursive;
-      }
-      .days {
-        font-size: 2em;
-        color: #db2777;
-        margin: 20px 0;
-      }
-      .subtitle {
-        color: #9333ea;
-        font-size: 1.2em;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>星星 & 微微</h1>
-      <div class="days">我们在一起已经 <span id="daysCount">0</span> 天</div>
-      <div class="subtitle">永远在一起 ❤️</div>
-    </div>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="我们的爱情纪念网站，记录美好时光" />
+<meta name="theme-color" content="#ec4899" />
+<title>我们的爱情记忆</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%);
+font-family: 'Noto Serif SC', serif;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.container {
+text-align: center;
+background: rgba(255, 255, 255, 0.9);
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(236, 72, 153, 0.2);
+}
+h1 {
+font-size: 3em;
+color: #ec4899;
+margin-bottom: 20px;
+font-family: 'Ma Shan Zheng', cursive;
+}
+.days {
+font-size: 2em;
+color: #db2777;
+margin: 20px 0;
+}
+.subtitle {
+color: #9333ea;
+font-size: 1.2em;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>星星 & 微微</h1>
+<div class="days">我们在一起已经 <span id="daysCount">0</span> 天</div>
+<div class="subtitle">永远在一起 ❤️</div>
+</div>
 
-    <script>
-      // 计算在一起的天数
-      const togetherDate = new Date('2026-04-01');
-      const today = new Date();
-      const diffTime = Math.abs(today - togetherDate);
-      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+<script>
+// 计算在一起的天数
+const togetherDate = new Date('2026-04-01');
+const today = new Date();
+const diffTime = Math.abs(today - togetherDate);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-      document.getElementById('daysCount').textContent = diffDays;
-    </script>
-  </body>
-  </html>
+document.getElementById('daysCount').textContent = diffDays;
+</script>
+</body>
+</html>
